@@ -1,0 +1,54 @@
+{
+    "hau_qua": [
+        {
+            "anh": "assets/img/ho-hap.jpg",
+            "style": "",
+            "tieu_de": "gây các bệnh về đường hô hấp",
+            "mieu_ta": "Ô nhiễm môi trường không khí là nguyên nhân chính gây hậu quả nghiêm trọng nhất tới sức khoẻ con người. Nó khiến cho tỷ lệ người mắc các bệnh về hô hấp, ung thu, vô sinh,... càng ngày càng tăng. Hơn 60.000 người tử vong mỗi năm ở Việt Nam liên quan tới ô nhiễm không khí."
+        },
+        {
+            "anh": "assets/img/nguon-nuoc.png",
+            "style": "",
+            "tieu_de": "tử vong do sử dụng nguồn nước bẩn",
+            "mieu_ta": "Có đến 9.000 người chết vì sử dụng nguồn nước bị ô nhiễm. Có trên 100.000 trường hợp mắc ung thư mà một trong những nguyên nhân được phát hiện là do sử dụng nguồn nước bẩn thường xuyên."
+        },
+        {
+            "anh": "assets/img/he-sinh-thai.jpg",
+            "style": "rounded-circle",
+            "tieu_de": "hệ sinh thái đang bị tàn phá nghiêm trọng",
+            "mieu_ta": "Ô nhiễm mô trường đất gây ảnh hưởng nặng nề đến nguồn nước ngầm, gây mất cân bằng sinh thái, đe doạ sự sống còn của hệ sinh vật và loài người."
+        }
+    ],
+    "hanh_dong": [
+        {
+            "anh": "assets/img/xe-bus.jpg",
+            "tieu_de": "sử dụng phương tiện công cộng",
+            "mieu_ta": "Để hạn chế lượng khí thải từ các phương tiện cá nhân."
+        },
+        {
+            "anh": "assets/img/khong-hut-thuoc.png",
+            "tieu_de": "Không hút thuốc",
+            "mieu_ta": "Để hạn chế việc thải khí C02 ra môi trường, bảo vệ sức khoẻ bản thân và sức khoẻ của mọi người xung quanh."
+        },
+        {
+            "anh": "assets/img/dot-rac.jpg",
+            "tieu_de": "Không đốt rác",
+            "mieu_ta": "Để hạn chế việc thải khí C02 và các khí độc khác ra môi trường."
+        },
+        {
+            "anh": "assets/img/do-rac.png",
+            "tieu_de": "Không đổ rác ra nguồn nước",
+            "mieu_ta": "Để tránh gây ô nhiễm môi trường nước."
+        },
+        {
+            "anh": "assets/img/phan-bon.jpg",
+            "tieu_de": "Hạn chế sử dụng phân bón hoá học",
+            "mieu_ta": "Để hạn chế gây ô nhiễm môi trường đất, đảm bảo vệ sinh an toàn thực phẩm."
+        },
+        {
+            "anh": "assets/img/trong-cay.jpg",
+            "tieu_de": "Trồng cây",
+            "mieu_ta": "Để giảm ô nhiễm môi trường, giúp cân bằng hệ sinh học."
+        }
+    ]
+}
