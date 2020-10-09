@@ -128,10 +128,10 @@
                         hau_qua = json.hau_qua[i];
                         $("#hau-qua > div.container").append(
                             `<div class="row align-items-center">
-                                <div class="col-lg-6 order-lg-${i % 2 == 0 ? 2: 1}">
+                                <div class="col-lg-6 order-lg-${i % 2 == 0 ? 1: 2}">
                                     <div class="p-5"><img class="${hau_qua.style} img-fluid" src="${hau_qua.anh}" style="width: 450px;"></div>
                                 </div>
-                                <div class="col-lg-6 order-lg-${i % 2 == 0 ? 1: 2}">
+                                <div class="col-lg-6 order-lg-${i % 2 == 0 ? 2: 1}">
                                     <div class="p-5">
                                         <h1>${hau_qua.tieu_de}</h1>
                                         <p>${hau_qua.mieu_ta}</p>
