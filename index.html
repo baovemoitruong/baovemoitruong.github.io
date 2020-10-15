@@ -155,6 +155,8 @@
                 });
             setInterval(() => {
                 var img = $(".counter img")[0];
+                $(".counter").empty();
+                $(".counter").append(img);
             }, 3000);
         })
     </script>
