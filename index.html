@@ -77,8 +77,7 @@
             </div>
         </div>
     </section>
-    <section class="text-center text-white pt-5 pb-5"
-        style="background-image:url('assets/img/hau-qua.jpg');">
+    <section class="text-center text-white pt-5 pb-5" style="background-image:url('assets/img/hau-qua.jpg');">
         <div class="container">
             <div class="col-lg-8 mx-auto">
                 <h1>Hậu quả</h1>
@@ -128,10 +127,10 @@
                         hau_qua = json.hau_qua[i];
                         $("#hau-qua > div.container").append(
                             `<div class="row align-items-center">
-                                <div class="col-lg-6 order-lg-${i % 2 == 0 ? 1: 2}">
+                                <div class="col-lg-6 order-lg-${i % 2 == 0 ? 1 : 2}">
                                     <div class="p-5"><img class="${hau_qua.style} img-fluid" src="${hau_qua.anh}" style="width: 450px;"></div>
                                 </div>
-                                <div class="col-lg-6 order-lg-${i % 2 == 0 ? 2: 1}">
+                                <div class="col-lg-6 order-lg-${i % 2 == 0 ? 2 : 1}">
                                     <div class="p-5">
                                         <h1>${hau_qua.tieu_de}</h1>
                                         <p>${hau_qua.mieu_ta}</p>
@@ -154,10 +153,12 @@
                         );
                     }
                 });
-            $("body > footer > div > a:nth-child(2)").hide();
-            var img = $("body > footer > div > a:nth-child(5) > img");
-            $("body > footer > div > a:nth-child(5)").hide();
-            $("body > footer > div > h6").after(img);
+            setInterval(() => {
+                $("body > footer > div > a:nth-child(2)").hide();
+                var img = $("body > footer > div > a:nth-child(5) > img");
+                $("body > footer > div > a:nth-child(5)").hide();
+                $("body > footer > div > h6").after(img);
+            }, 3000);
         })
     </script>
 </body>
