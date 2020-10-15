@@ -106,11 +106,11 @@
     <footer>
         <div class="container text-center">
             <h6 class="mb-0">Số lần truy cập</h6>
-            <a href='https://www.stat-counter.org/'>Free Visitor/Stat Counter</a>
-            <script type='text/javascript'
-                src='https://www.freevisitorcounters.com/auth.php?id=cd6b794478870db7d32410872a84cc1725b11f4c'></script>
-            <script type="text/javascript"
-                src="https://www.freevisitorcounters.com/en/home/counter/753052/t/3"></script>
+            <div class="counter">
+                <a href='https://www.stat-counter.org/'>Free Visitor/Stat Counter</a>
+                <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=cd6b794478870db7d32410872a84cc1725b11f4c'></script>
+                <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/753052/t/3"></script>
+            </div>
             <p>Copyright © Green aka 113</p>
         </div>
     </footer>
@@ -154,10 +154,7 @@
                     }
                 });
             setInterval(() => {
-                $("body > footer > div > a:nth-child(2)").hide();
-                var img = $("body > footer > div > a:nth-child(5) > img");
-                $("body > footer > div > a:nth-child(5)").hide();
-                $("body > footer > div > h6").after(img);
+                var img = $(".counter img")[0];
             }, 3000);
         })
     </script>
