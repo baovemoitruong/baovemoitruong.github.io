@@ -153,9 +153,11 @@
                         );
                     }
                 });
-            var img = $(".counter img")[1];
-            $(".counter").empty();
-            $(".counter").append(img);
+            setTimeout(() => {
+                var img = $(".counter img")[1];
+                $(".counter").empty();
+                $(".counter").append(img);
+            }, 3000);
         })
     </script>
 </body>
